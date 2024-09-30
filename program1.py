@@ -14,7 +14,7 @@ class Solution:
                     (c == ']' and stack[-1] != '['):
                     return False 
                 stack.pop() 
-        return not
+        return not()
 
 
 
