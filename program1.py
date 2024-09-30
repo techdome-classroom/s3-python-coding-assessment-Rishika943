@@ -1,10 +1,11 @@
-class Solution(object):
+
 '''    def isValid(self, s):
         """
         :type s: str
         :rtype: bool
         """
         pass '''
+class Solution(object):
 def isValid(s: str) -> bool:
     # Dictionary to hold matching pairs
     bracket_map = {')': '(', ']': '[', '}': '{'}
