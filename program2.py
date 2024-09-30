@@ -14,8 +14,8 @@ class Solution(object):
         for i in range(len(s)):
             
             if i < len(s) - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
-            total -= roman_map[s[i]]
-        else:
+                total -= roman_map[s[i]]
+            else:
             # Otherwise, add the current value to the total
             total += roman_map[s[i]]
     
