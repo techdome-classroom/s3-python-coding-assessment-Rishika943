@@ -7,7 +7,7 @@
         pass'''
         
 class Solution:
-    def isValid(s: str) -> bool:
+    def isValid(self,s: str) -> bool:
         bracket_map = {')': '(', ']': '[', '}': '{'}
         stack = []
         for char in s:
