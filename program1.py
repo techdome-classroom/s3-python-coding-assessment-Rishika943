@@ -8,8 +8,8 @@
 class Solution(object):
     def isValid(s: str) -> bool:
     # Dictionary to hold matching pairs
-    # bracket_map = {')': '(', ']': '[', '}': '{'}
-    # stack = []
+    bracket_map = {')': '(', ']': '[', '}': '{'}
+    stack = []
     
     # Loop through each character in the string
     for char in s:
