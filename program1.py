@@ -10,9 +10,7 @@ class Solution:
     def isValid(s: str) -> bool:
         bracket_map = {')': '(', ']': '[', '}': '{'}
         stack = []
-    
-    
-    for char in s:
+        for char in s:
         # If it's a closing bracket
         if char in bracket_map:
             # Pop from stack if not empty, else assign a dummy value
@@ -30,7 +28,10 @@ class Solution:
 # Example usage:
 print(isValid("()"))      # Output: True
 print(isValid("()[]{}"))  # Output: True
-print(isValid("(]"))      # Output: False
+print(isValid("(]"))
+    
+    
+          # Output: False
 
 
 
