@@ -6,7 +6,7 @@
         """
         pass'''
         
-class Solution(isValid):
+class Solution(isValid=True):
     def isValid(s: str) -> bool:
         bracket_map = {')': '(', ']': '[', '}': '{'}
         stack = []
