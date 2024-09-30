@@ -1,24 +1,17 @@
 class Solution(object):
     def romanToInt(s: str) -> int:
-        res = 0
-        roman = {
-            'I': 1,
-            'V': 5,
-            'X': 10,
-            'L': 50,
-            'C': 100,
-            'D': 500,
-            'M': 1000
-        }
-
-        for a, b in zip(s, s[1:]):
-            if roman[a] < roman[b]:
-                res -= roman[a]
+       roman_map = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000}
+        total = 0
+        for i in range(len(s)):
+            
+            if i < len(s) - 1 and roman_map[s[i]] < roman_map[s[i + 1]]:
+                total -= roman_map[s[i]]
             else:
-                res += roman[a]
-
-        return res + roman[s[-1]] 
-        
+                total += roman_map[s[i]]
+                return total
+    print(romanToInt("III"))  
+    print(romanToInt("LVIII")) 
+    print(romanToInt("MCMXCIV"))
     
     
   
