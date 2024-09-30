@@ -23,7 +23,7 @@
         print(isValid("()"))      
         print(isValid("()[]{}"))  
         print(isValid("(]"))'''
-        
+import unittest       
 class TestSolution(unittest.TestCase):
     def setUp(self):
         self.solution = Solution()
