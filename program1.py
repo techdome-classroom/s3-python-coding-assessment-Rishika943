@@ -25,17 +25,6 @@ class Solution:
         print(isValid("(]"))
 
 
-            
-                
-            
-    
-            
-            
-
-    
-          # Output: False
-
-
 
 
 
