@@ -21,9 +21,7 @@ class Solution:
         else:
             # It's an opening bracket, push it to the stack
             stack.append(char)
-    
-    # If the stack is empty, all brackets were matched
-    return not stack
+            return not stack
 
 # Example usage:
 print(isValid("()"))      # Output: True
