@@ -22,7 +22,7 @@ class Solution:
         # Example usage:
         print(isValid("()"))      
         print(isValid("()[]{}"))  
-        print(isValid("(]"))
+        print(isValid("(]"))'''
         
 class TestSolution(unittest.TestCase):
     def setUp(self):
