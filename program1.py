@@ -1,17 +1,18 @@
-
-'''    def isValid(self, s):
+'''class Solution(object):
+    def isValid(self, s):
         """
         :type s: str
         :rtype: bool
         """
-        pass '''
-class Solution(object):
-    def isValid(s: str) -> bool:
-        bracket_map = {')': '(', ']': '[', '}': '{'}
-        stack = []
+        pass'''
+def isValid(s: str) -> bool:
+    # Dictionary to hold matching pairs
+    bracket_map = {')': '(', ']': '[', '}': '{'}
+    stack = []
     
+    # Loop through each character in the string
     for char in s:
-        
+        # If it's a closing bracket
         if char in bracket_map:
             # Pop from stack if not empty, else assign a dummy value
             top_element = stack.pop() if stack else '#'
