@@ -6,7 +6,7 @@
         """
         pass'''
         
-class Solution():
+class Solution(self,s):
     def isValid(s: str) -> bool:
     # Dictionary to hold matching pairs
     bracket_map = {')': '(', ']': '[', '}': '{'}
