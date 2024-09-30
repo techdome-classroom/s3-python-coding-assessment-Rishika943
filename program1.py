@@ -20,7 +20,7 @@ class Solution:
             stack.append(char)
             return not stack
         # Example usage:
-        print(isValid("()"))      # Output: True
+        print(isValid("()"))      
         print(isValid("()[]{}"))  
         print(isValid("(]"))
 
