@@ -19,11 +19,12 @@ class Solution:
             # It's an opening bracket, push it to the stack
             stack.append(char)
             return not stack
-
-# Example usage:
+        # Example usage:
 print(isValid("()"))      # Output: True
 print(isValid("()[]{}"))  # Output: True
 print(isValid("(]"))
+
+
             
                 
             
