@@ -21,7 +21,7 @@ class Solution:
             return not stack
         # Example usage:
         print(isValid("()"))      # Output: True
-        print(isValid("()[]{}"))  # Output: True
+        print(isValid("()[]{}"))  
         print(isValid("(]"))
 
 
