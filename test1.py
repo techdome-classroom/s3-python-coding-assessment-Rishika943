@@ -1,5 +1,5 @@
 import unittest
-from program1 import TestSolution
+from program1 import Solution
 
 class TestSolution(unittest.TestCase):
     def setUp(self):
