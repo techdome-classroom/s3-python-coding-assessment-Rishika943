@@ -26,7 +26,7 @@
 import unittest       
 class TestSolution(unittest.TestCase):
     def setUp(self):
-        self.solution = Solution()
+        self.solution = TestSolution()
 
     def test_valid_parentheses(self):
         self.assertTrue(self.solution.isValid("()"))
