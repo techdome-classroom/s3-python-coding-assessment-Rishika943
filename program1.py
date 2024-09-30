@@ -23,8 +23,4 @@ class Solution:
         print(isValid("()"))      
         print(isValid("()[]{}"))  
         print(isValid("(]"))
-
-
-
-  
-
+        
