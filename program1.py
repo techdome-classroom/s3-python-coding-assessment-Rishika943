@@ -6,7 +6,7 @@
         """
         pass'''
 import unittest        
-class Solution(unittest):
+class Solution(unittest.Solution):
     def isValid(self,s: str) -> bool:
         bracket_map = {')': '(', ']': '[', '}': '{'}
         stack = []
