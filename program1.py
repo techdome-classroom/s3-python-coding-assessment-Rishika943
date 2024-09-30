@@ -12,8 +12,7 @@ class Solution:
         stack = []
         for char in s:
              if char in bracket_map:
-            
-            top_element = stack.pop() if stack else '#'
+                 top_element = stack.pop() if stack else '#'
             # Check if the popped element matches the corresponding opening bracket
             if bracket_map[char] != top_element:
                 return False
@@ -27,6 +26,8 @@ print(isValid("()"))      # Output: True
 print(isValid("()[]{}"))  # Output: True
 print(isValid("(]"))
     
+            
+            
 
     
           # Output: False
