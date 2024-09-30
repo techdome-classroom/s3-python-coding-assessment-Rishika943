@@ -16,7 +16,7 @@ class Solution:
                  if bracket_map[char] != top_element:
                      return False
         else:
-            # It's an opening bracket, push it to the stack
+            
             stack.append(char)
             return not stack
         # Example usage:
