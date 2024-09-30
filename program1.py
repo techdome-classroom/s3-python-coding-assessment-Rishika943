@@ -11,7 +11,7 @@ class Solution(object):
         stack = []
     
     for char in s:
-        # If it's a closing bracket
+        
         if char in bracket_map:
             # Pop from stack if not empty, else assign a dummy value
             top_element = stack.pop() if stack else '#'
