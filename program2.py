@@ -18,9 +18,7 @@ class Solution(object):
             else:
                 total += roman_map[s[i]]
                 return total
-
-# Example usage:
-print(romanToInt("III"))      # Output: 3
+            print(romanToInt("III"))      # Output: 3
 print(romanToInt("LVIII"))    # Output: 58
 print(romanToInt("MCMXCIV"))  # Output: 199
   
